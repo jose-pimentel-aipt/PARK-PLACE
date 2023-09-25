@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Park Place</title>  <!-- Change the title -->
+    <link rel="icon" href="ASSETS/PP-icon.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        primary: {"50":"#fafafa","100":"#f5f5f5","200":"#e5e5e5","300":"#d4d4d4","400":"#a3a3a3","500":"#737373","600":"#525252","700":"#404040","800":"#262626","900":"#171717","950":"#0a0a0a"}
+      }
+    },
+    fontFamily: {
+      'body': [
+    'Montserrat', 
+    'ui-sans-serif', 
+    'system-ui', 
+    '-apple-system', 
+    'system-ui', 
+    'Segoe UI', 
+    'Roboto', 
+    'Helvetica Neue', 
+    'Arial', 
+    'Noto Sans', 
+    'sans-serif', 
+    'Apple Color Emoji', 
+    'Segoe UI Emoji', 
+    'Segoe UI Symbol', 
+    'Noto Color Emoji'
+  ],
+      'sans': [
+    'Montserrat', 
+    'ui-sans-serif', 
+    'system-ui', 
+    '-apple-system', 
+    'system-ui', 
+    'Segoe UI', 
+    'Roboto', 
+    'Helvetica Neue', 
+    'Arial', 
+    'Noto Sans', 
+    'sans-serif', 
+    'Apple Color Emoji', 
+    'Segoe UI Emoji', 
+    'Segoe UI Symbol', 
+    'Noto Color Emoji'
+  ]
+    }
+  }
+}
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css"  rel="stylesheet" />
+</head>
+<body>
+<!-- Add your blocks here -->
+
+<!-- HEADER STARTS -->
+<header>
+    <nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800 flex justify-center">
+        <div class="flex flex-wrap justify-between items-center text-center mx-auto max-w-screen-xl">
+            <img src="ASSETS/PP-logo-white.png" class="mt-5 h-6 sm:h-9" />
+        </div>
+    </nav>
+</header>
+<!-- HEADER ENDS -->
+
+<!-- HERO STARTS -->
+<section class="bg-white dark:bg-gray-900">
+  <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-12 xl:gap-0 lg:py-16 lg:grid-cols-12">
+      <div class="mr-auto place-self-center lg:col-span-7 xl:col-span-8">
+          <h1 class="max-w-2xl mb-4 text-4xl font-bold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Portugal Unlocked</h1>
+          <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Real estate in Portugal has grown as an attractive investment choice over the last decade.
+Growing in popularity as a place to visit, live and invest, Portugal has become a top destination for foreigners seeking something different.</p>
+      </div>
+      <div class="hidden lg:mt-0 lg:col-span-5 xl:col-span-4 lg:flex">
+          <img class= rounded-lg src="ASSETS/aipt_Luxury_serviced_villas_and_apartments_in_Cascais_and_Lisbo_9351bc5f-fecf-47be-ad2b-ed4d7c449575.png" alt="phone illustration">
+      </div>                
+  </div>
+</section>
+<!-- HERO FINISHES -->
+
+
+
+<!-- SERVICES STARTS -->
+
+<section class="bg-white dark:bg-gray-900">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+      <div class="text-center text-gray-900">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 lg:text-5xl dark:text-white">Services</h2>
+        <div class="mt-4 font-light text-gray-500 items-center sm:text-lg lg:mt-0 dark:text-gray-400">
+        <div class="grid gap-6 mt-12 lg:mt-14 lg:gap-12 md:grid-cols-4">
+            <div class="flex mb-2 md:flex-col md:mb-0">
+                <img class="mr-4 w-auto h-36 md:w-full md:h-auto rounded-lg" src="ASSETS/aipt_Luxury_serviced_villas_and_apartments_in_Cascais_and_Lisbo_79aab1ca-a498-4377-8714-94d0900afd29.png" alt="office image" />
+                <div>
+                    <h3 class="text-xl font-bold md:mt-4 mb-2.5 text-gray-900 dark:text-white">Rentals</h3>
+                    <p class="text-gray-500 dark:text-gray-400">Luxury  serviced villas and apartments in Cascais and Lisbon for medium-term rentals.</p>
+                </br>
+                </div>
+            </div>
+            <div class="flex mb-2 md:flex-col md:mb-0">
+                <img class="mr-4 w-auto h-36 md:w-full md:h-auto rounded-lg" src="ASSETS/aipt_Advice_on_sourcing_financing_and_legal_needs_for_foreigner_af6b9b2e-0a3b-4899-9d83-5bbc0705070e.png" alt="office image" />
+                <div>
+                    <h3 class="text-xl font-bold md:mt-4 mb-2.5 text-gray-900 dark:text-white">Brokerage</h3>
+                    <p class="text-gray-500 dark:text-gray-400">Advice on sourcing, financing and legal needs for foreigners buying property in Portugal.</p>
+                </div>
+            </div>
+            <div class="flex mb-2 md:flex-col md:mb-0">
+                <img class="mr-4 w-auto h-36 md:w-full md:h-auto rounded-lg" src="ASSETS/aipt_Investment_opportunities_for_foreigners_in_Portugal._Detai_5faa206b-6ec1-4eab-9ec5-6d37006af400.png" alt="office image" />
+                <div>
+                    <h3 class="text-xl font-bold md:mt-4 mb-2.5 text-gray-900 dark:text-white">Investment</h3>
+                    <p class="text-gray-500 dark:text-gray-400">Eligible investment opportunities for foreigners looking to apply for Golden Visa residency.</p>
+                </div>
+            </div>
+            <div class="flex mb-2 md:flex-col md:mb-0">
+                <img class="mr-4 w-auto h-36 md:w-full md:h-auto rounded-lg" src="ASSETS/aipt_Interior_design_services_including_concept_sourcing_instal_11680a00-1ebc-4ab5-b7dd-544ba7e3c7a2.png" alt="office image" />
+                <div>
+                    <h3 class="text-xl font-bold md:mt-4 mb-2.5 text-gray-900 dark:text-white">Design</h3>
+                    <p class="text-gray-500 dark:text-gray-400">Interior design services, including concept, sourcing, installation and project management.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+<!-- SERVICES FINISHES -->
+
+
+<!-- EMAIL SIGN-UP STARTS -->
+<section class="bg-white dark:bg-gray-900">
+    <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Us</h2>
+        <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">294 Conde Moser
+        </br>
+            Cascais, 2765-428
+        </br>
+            Portugal
+        </br>
+    </br>
+            +351 912 891 296
+        </br>
+    </br>
+            info@parkplace.pt</p>       
+        <form action="#" class="space-y-8">
+            <div>
+                <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
+                <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@email.com" required>
+            </div>
+            <div>
+                <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
+                <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Let us know how we can help you" required>
+            </div>
+            <div class="sm:col-span-2">
+                <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
+                <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+            </div>
+            <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
+        </form>
+    </div>
+  </section>
+<!-- EMAIL SIGN-UP FINISHES -->
+
+
+<!-- FOOTER STARTS  -->
+<footer class="p-4 bg-white md:p-8 lg:p-10 dark:bg-gray-800">
+  <div class="mx-auto max-w-screen-xl text-center">
+    </nav>
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 by Park Place</span>
+  </div>
+</footer>
+
+<!-- FOOTER FINISHES  -->
+
+<!-- Closing blocks -->
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+</body>
+</html>
